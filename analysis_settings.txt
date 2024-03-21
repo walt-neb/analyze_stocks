@@ -1,0 +1,15 @@
+#analysis_settings.txt
+
+# Tickers to analyze
+tickers: MSFT
+
+# Date range for analysis
+start_date: 2023-01-01
+end_date: 2024-03-19
+
+# Analysis types and parameters (format: AnalysisType,Param1,Param2)
+# SMA: Simple Moving Average (Parameters: short window, long window)
+analysis: SMA,20,60
+
+# Bollinger Bands (Parameters: window, num of std deviations)
+a nalysis: Bollinger,20,2
