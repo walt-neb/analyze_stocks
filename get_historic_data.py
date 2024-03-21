@@ -1,3 +1,6 @@
+#get_historic_data.py
+# note: the additional_data records is just a place holder and can be expanded (e.g. market cap, etc.)
+
 import pandas as pd
 import yfinance as yf
 import os
