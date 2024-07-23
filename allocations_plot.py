@@ -1,3 +1,11 @@
+# File: allocations_plot.py
+#
+# Description: This script reads a list of stock tickers and shares from a text file, fetches the latest stock prices, 
+# calculates the value of each holding, and creates a pie chart showing the portfolio allocation. The script also fetches 
+# additional financial data for each stock, such as earnings per share (EPS), price-to-earnings (P/E) ratio, earnings growth, 
+# and price/earnings-to-growth (PEG) ratio. The financial data is then combined with the portfolio data and saved to an Excel file.
+
+
 import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
